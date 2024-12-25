@@ -1,0 +1,41 @@
+.bg-primary text-white text-center{
+    background-color: white; 
+}
+
+.display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.warbler-text {
+    font-family: 'Warbler Banner', serif;
+    font-style: italic;
+}
+
+
+.bg-image {
+    background-image: url('https://holidaysdna.com/wp-content/uploads/tourist-places-to-visit-in-south-india-1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-container {
+    padding: 5rem 0; 
+}
+
+.card img{
+    height: 200px;
+    width: 300px;
+}

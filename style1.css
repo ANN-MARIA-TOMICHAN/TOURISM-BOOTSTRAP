@@ -1,0 +1,32 @@
+.card img{
+    height: 250px;
+    width: 350px;
+}
+
+<style>
+/* Custom CSS for smooth fade-in transition */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.show {
+    opacity: 1;
+}
+
+/* Adding hover effect to cards */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Animating text when scrolling */
+.animate-on-scroll {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+}
+</style>
